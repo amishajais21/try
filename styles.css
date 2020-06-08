@@ -1,0 +1,265 @@
+header img{
+	width: 150px;
+}
+header p{
+	float: right;
+	padding-top: 20px;
+	padding-right: 19px;
+}
+#start{
+
+}
+.navbar {
+  width: 100%;
+
+  overflow: hidden;
+  background-color: indigo;
+}
+.navbar a {
+  float: left;
+  margin-top: 17px;
+  padding-bottom: 3px;
+    text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  width: 33.33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  /* If you want the text to be centered */
+  font-weight: bold;
+color: cornsilk;
+font-size: 24px;
+}
+.navbar a:hover {
+  background-color: #000;
+}
+/* foooter*/
+
+.panel-footer{
+	background: rgb( 0, 0, 0);
+	color: white;
+	opacity: 0.7;
+	font-size: 14px;
+	margin-top: 0px;
+}
+
+
+#social i{
+	color: white;
+	padding-right: 15px;
+	font-size: 25px;
+}
+#social a{
+color: white;
+text-decoration: underline;
+}
+#love i{
+	color: red;
+	
+}
+
+/* foot end */
+
+
+#slider{
+	overflow: hidden;
+}
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+}
+
+#slider figure img{
+	width: 20%;
+	float: left;
+}
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20%{
+		left:0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+.home button{
+	background-color: sandybrown;
+	border: none;
+	opacity: 0.6;
+	
+	height: 30px;
+	position:relative;
+	bottom: 120px;
+	height: 70px;
+	width:170px;
+	color:white;
+	font-weight: bold;
+	font-size: 29px;
+}
+
+.register{
+	margin-left:30px;
+}
+
+.contact{
+	float:right;
+	margin-right:30px;
+}
+
+.home button:hover {
+	opacity: 0.9;
+	color: black;
+}
+.home{
+	background: url(https://image.freepik.com/free-photo/dark-blue-plain-wall-background_53876-92976.jpg);
+position: relative;
+bottom: 20px;
+
+}
+.news{
+	color: darkblue;
+background: white;
+
+}
+.news h1 img{
+	width: 100px;
+	padding-left: 12px;
+	padding-right: 12px;
+
+}
+
+#founder p, #placement p, #usa p{
+	font-size: 12px;
+	padding:10px;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center; 
+	height: auto;
+	max-width: 100%;
+	position: relative;
+	bottom: 20px;
+	color:white;
+	font-weight: bold;
+
+
+}
+
+/*.news section{
+	display: block;
+	height: 280px;
+	margin: auto;
+
+}*/
+/*#founder img, #placement img, #usa img{
+	font-size: 12px;
+	width: 400px;
+	align-items: center;
+	overflow: hidden;
+	height:200px;
+}*/
+
+/*#usa p{
+	position: relative;
+	bottom: 20px;
+	color:white;
+	font-weight: bold;
+	padding-top: 25px;
+
+}
+#founder p{
+	position: relative;
+	bottom: 20px;
+	color:white;
+	font-weight: bold;
+}
+#placement p{
+	position: relative;
+	bottom: 20px;
+	color:white;
+	font-weight: bold;
+	padding-top: 35px;
+
+}*/
+/*@media(max-width: 767px){
+#founder p, #placement p, #usa p{
+	width:360px;
+
+}
+
+.news section {
+	width:100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+}*/
+
+#founder img, #placement img, #usa img{
+	max-height: 100%;
+  max-width: 100%;
+}
+
+/*.courses img{
+	width: 100px;
+	float: right;
+}
+.courses p{
+	float: left;
+}
+.courses h2{
+
+}*/
+
+#back{
+	background: url(https://image.freepik.com/free-photo/dark-blue-plain-wall-background_53876-92976.jpg);
+	color: white;
+	margin-bottom: 0;
+}
+#back img{
+width: 30%;
+	height: 110px;
+	float: right;
+
+}
+#back h2 .hello{
+	font-size: 20px;
+	font-family: 'Piedra', cursive;
+}
+#back h2 .han{
+	font-size: 20px;
+	font-family: 'Piedra', cursive;
+}
+#back h1{
+	font-family: 'Metal Mania', cursive;
+}
+#back h2{
+	font-family: 'Piedra', cursive;
+}
+.header{
+	background-color: white;
+}
+body{
+	background: url(https://image.freepik.com/free-photo/dark-blue-plain-wall-background_53876-92976.jpg);
+}
