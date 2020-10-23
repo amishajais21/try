@@ -1,3 +1,3 @@
 # try
 ## TRY2
-![alt text](ELECTRICAL.jpg)
+![alt text](Electrical.jpg)
